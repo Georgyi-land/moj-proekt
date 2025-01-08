@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+          <title>Моє меню </title>
+          <meta charset= "utf-8">
+          <link rel="stylesheet" href="href.css">  
+    </head>
+    <body>      
+     
+      <header class="header">
+        <h1 class="store-title">Happy Toy </h1>
+      </header>
+      <main class="content">
+        <p>Welcome to the Toy Store! Here you'll find toys for every child.</p>
+       
+         <div class="road"></div>
+      <div class="car" id="car">
+        <svg viewBox="0 0 365 185">
+          <!-- Верхня частина -->
+          <rect x="70" y="10" width="220" height="130" fill="transparent" rx="150" stroke="crimson" stroke-width="10" />
+          <!-- Корпус -->
+          <rect x="10" y="70" width="340" height="80" fill="crimson" rx="30" />
+          <!-- Лінії -->
+          <line x1="145" y1="10" x2="145" y2="80" stroke="crimson" stroke-width="10" />
+          <line x1="215" y1="10" x2="215" y2="80" stroke="crimson" stroke-width="10" />
+          <!-- Бампери -->
+          <rect x="0" y="110" width="40" height="20" fill="#999" rx="10" />
+          <rect x="325" y="110" width="40" height="20" fill="#999" rx="10" />
+          <!-- Ліве колесо -->
+          <g>
+            <circle r="40" fill="#222" stroke="white" stroke-width="7" cx="90" cy="140" />
+            <circle r="15" fill="#555" cx="90" cy="140" />
+          </g>
+          <!-- Праве колесо -->
+     <g>
+            <circle r="40" fill="#222" stroke="white" stroke-width="7" cx="270" cy="140" />
+            <circle r="15" fill="#555" cx="270" cy="140" />
+          </g>
+          <!-- Фари -->
+          <circle r="15" fill="gold" cx="340" cy="90" />
+          <circle r="10" fill="orange" cx="15" cy="90" />
+        </svg>
+      </div>
+   
+      <div class="controls">
+        <button id="startBtn">Старт</button>
+        <button id="stopBtn">Стоп</button>
+      </div>
+   
+      </main>
+
+  <script src="script.js" >     </script>
+</body>
+</html>

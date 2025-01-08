@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;   }
+ 
+ 
+  .header {
+    background: linear-gradient(to bottom, #ffeb3b, #ffe082);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);   }
+ 
+  .store-title {
+    font-size: 3rem;
+    color: #ff5722;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 0;   }
+ 
+ 
+  .content {
+    background: linear-gradient(to top, #81d4fa, #b3e5fc);
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;    }
+ 
+  .content p {
+    font-size: 1.5rem;
+    color: #01579b;
+    max-width: 600px;
+    line-height: 1.6;    }
+ 
+    .road {
+        position: absolute;
+        top: 120;
+        width: 100%;
+        height: 100px;
+        background: #555;        }
+ 
+      .car {
+        position: absolute;
+        left: 0;
+ 
+        width: 365px;
+        height: 185px;        }
+ 
+      .controls {
+        position: absolute;
+        top: 70%;
+        left: 40%;         }
+ 
+      .controls button {
+        padding: 10px 20px;
+        margin-right: 10px;
+        border-radius: 10px;
+        background-color: #ffeb3b;
+        font-size: 16px;
+        cursor: pointer;         }
